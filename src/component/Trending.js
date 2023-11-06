@@ -6,6 +6,7 @@ import Sherina2Image from "../assets/IMAGES/2/Sherina 2.jpg"
 import RetributonImage from "../assets/IMAGES/2/Retribution.jpg"
 import PawPatrolImage from "../assets/IMAGES/2/Paw Patrol.jpg"
 
+
 const Trending = () => {
     return (
         <div>
@@ -22,7 +23,9 @@ const Trending = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Saw X</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="danger"  className="border">D 17+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">Saw X</Card.Text>
         </div>
@@ -36,7 +39,9 @@ const Trending = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Believer</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">Believer</Card.Text>
         </div>
@@ -50,7 +55,9 @@ const Trending = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">The Exorcist</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button  className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">The Exorcist</Card.Text>
         </div>
@@ -64,7 +71,9 @@ const Trending = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Sherina 2</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="success"  className="border">SUNA</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">Sherina 2</Card.Text>
         </div>
@@ -78,7 +87,9 @@ const Trending = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Paw Patrol</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button  className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">SUNA</Card.Text>
         </div>
@@ -92,7 +103,9 @@ const Trending = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Retribution </Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button  className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">Retribution</Card.Text>
         </div>

@@ -5,10 +5,10 @@ import Intro from './component/Intro';
 import Trending from './component/Trending';
 import Adventure from './component/Adventure';
 import Movie from './component/Movie';
-
+import Toktok from './component/Toktok';
 
 function App() {
-  return (
+ return(
      <div> 
       {/* intro section */}
       <div className="myBG">
@@ -31,6 +31,12 @@ function App() {
 
 <div className="Movie">
     <Movie />
+</div>
+
+{/* Movie end section */}
+
+<div className="footer">
+  <Toktok />
 </div>
 </div>
   );

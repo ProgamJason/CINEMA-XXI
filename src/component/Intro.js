@@ -1,4 +1,4 @@
-import {Container, Row, Col ,Button} from "react-bootstrap"
+import {Container, Row, Col ,Button, onclick} from "react-bootstrap"
 const Intro = () =>
 {
     return (
@@ -7,6 +7,10 @@ const Intro = () =>
         align-items-center">
           <Row>
             <Col>
+            <div className="iki">
+            <button className="Button">Search</button>
+            <input id="searchinput"type="search" placeholder="Movie, Theahters, Adventure...." name="Film dicari.." className="Input" ></input>
+            </div>
             <div className="title">FILMS COMING SOON</div>
             <div className="title"> SEGERA DATANG </div>
             <div className="introButton nt-4 text-center">

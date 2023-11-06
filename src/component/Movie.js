@@ -14,7 +14,7 @@ const Movie = () => {
             <Container>
                 <br />
                 <br/>
-                <h1 className="  text-center text-decoration-underline font-family
+                <h1 className=" text-white text-center text-decoration-underline font-family
                 align-items center p-4 m-3 mt-6 jason" href="#MOVIE FILMS"  >MOVIE FILMS</h1>
                 <Row>
                     <Col md={4} className="movieWrapper" id="MOVIE FILMS">
@@ -24,7 +24,11 @@ const Movie = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Bangku Kosong</Card.Title>
         <Card.Text className="text-left">
-         <Button variant="primary" className="align-items-center align-items-center border" >R 13+</Button>
+          <Container>
+            <div className="Sairyo">
+         <Button variant="primary border">R 13+</Button>
+         </div>
+         </Container>
         </Card.Text>
         <Card.Text className="text-center" >Bangku kosong</Card.Text>
         </div>
@@ -38,7 +42,9 @@ const Movie = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Diambang </Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
            <Button variant="primary" className="border">R 13+</Button>
+           </div>
         </Card.Text>
         <Card.Text className="text-center">Diambang kematian</Card.Text>
         </div>
@@ -52,7 +58,9 @@ const Movie = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Cinta pertama</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="warning" className="border">D 17+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">Cinta pertama</Card.Text>
         </div>
@@ -66,7 +74,9 @@ const Movie = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Jawa Pocong</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="primary" className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">Jawa Pocong </Card.Text>
         </div>
@@ -80,7 +90,9 @@ const Movie = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Gran Turismo</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="primary" className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">Gran Turismo</Card.Text>
         </div>
@@ -94,7 +106,9 @@ const Movie = () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">The Marvels</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="primary" className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">The Marvels</Card.Text>
         </div>

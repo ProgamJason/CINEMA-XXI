@@ -23,7 +23,9 @@ const Adventure= () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">The Nun 2</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
          <Button variant="primary" className="align-items-center align-items-center border" >R 13+</Button>
+         </div>
         </Card.Text>
         <Card.Text className="text-center" >The Nun 2</Card.Text>
         </div>
@@ -37,7 +39,9 @@ const Adventure= () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">The Pilot</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
            <Button variant="primary" className="border">R 13+</Button>
+           </div>
         </Card.Text>
         <Card.Text className="text-center">The Pilot</Card.Text>
         </div>
@@ -51,7 +55,9 @@ const Adventure= () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">The Expend 4bles</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="warning" className="border">D 17+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">The Expend 4bles</Card.Text>
         </div>
@@ -65,7 +71,9 @@ const Adventure= () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">Jawa Pocong</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="primary" className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">Jawa Pocong </Card.Text>
         </div>
@@ -79,7 +87,9 @@ const Adventure= () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">MISSION RANI</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="primary" className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">MISSION RANIGANJ</Card.Text>
         </div>
@@ -93,7 +103,9 @@ const Adventure= () => {
         <div className="p-2 m-2">
         <Card.Title className="text-center">The Marvels</Card.Title>
         <Card.Text className="text-left">
+          <div className="Sairyo">
           <Button variant="primary" className="border">R 13+</Button>
+          </div>
         </Card.Text>
         <Card.Text className="text-center">The Marvels</Card.Text>
         </div>
